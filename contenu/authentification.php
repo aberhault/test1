@@ -8,7 +8,7 @@
 	if ($connect==true)
 	{ // recopié p29
 		
-		$requete="select prenom from etudiant where nom=? ";
+		$requete="select mdp from prof where login=? ";
 			
 		if ($reponse=$bdd->prepare($requete))
 		{
