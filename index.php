@@ -55,7 +55,7 @@ else
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>TP2 PHP</title>
+		<title>ABSENCE LP ASUR</title>
 		<link rel="stylesheet" href="annexe/style.css">
 		<link rel="stylesheet" href="contenu/style<?php echo $page; ?>.css">
 		<script>
