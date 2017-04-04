@@ -70,7 +70,7 @@ else
 	<body onLoad="LireDate()">
 		<section id="ensemble">
 			<header id="entete">
-				<img class="droite" src="annexe/logort.jpg">
+				<img class="droite" src="annexe/logort.gif">
 				<img class="gauche" src="annexe/logouniv.png">
 				<h1>accueil <?php echo $_SESSION["auth"]; ?></h1>
 			</header>
