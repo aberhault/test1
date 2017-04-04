@@ -1,0 +1,18 @@
+#contenu h4
+{
+color:red;
+}
+
+#form0 p label
+{
+
+width:40%;
+margin-right:10px;
+text-align:right;
+float:left;
+}
+
+#form0 p input
+{
+width:100px;
+}

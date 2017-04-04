@@ -1,0 +1,141 @@
+html, body, h1,h4, form, fieldset, legend,p, ol,ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+background-color: grey;
+font-family: geneva,arial;
+}
+
+a
+{
+text-decoration: none;
+}
+#ensemble
+{
+margin: auto;
+background-color: white;
+margin-top:0;
+padding:0;
+
+width: 570px;
+height:600px
+}
+#entete
+{
+background-color: white;
+height: 64px;
+color: #000099;
+border-bottom-style:solid;
+padding:10px;
+}
+#entete h1
+{
+padding-top:20px;
+text-align:center;
+text-transform: uppercase;
+}
+#entete img.gauche
+{
+float:left;
+height: 60px;
+}
+#entete img.droite
+{
+float:right;
+width:150px;
+}
+
+#menu
+{
+background-color: orange;
+float: left;
+width: 160px;
+height:450px;
+font-weight: bold;
+text-align: center;
+color:blue
+}
+#menu ul
+{
+padding:10px;
+}
+#menu ul li {
+  background: rgba(255,255,255,.3);
+  border-color: rgba(255,255,255,0.6);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+#menu a
+{
+display: block;
+color: blue;
+}
+
+#menu a:hover
+{
+background: rgba(255,0,0,.5);
+color: white;
+}
+
+#menu ul li.actif
+{
+  border-color: yellow;
+}
+
+#contenu
+{
+overflow: auto;
+padding:10px;
+height: 430px;
+}
+#contenu h4
+{
+text-align:center;
+}
+
+#pied
+{
+border-top-style:solid;
+height: 30px;
+color: #000099;
+font-size: small;
+padding:10px;
+text-align: center;
+}
+#pied a
+{
+float:left;
+border-style:none;
+ }
+#pied span#heure
+{
+float:right;
+}
+
+
+
+
+
+
+
+#calculatrice p label
+{
+text-align:right;
+padding-right:5%;
+width:25%;
+float:left;
+
+}
+
+#calculatrice p input
+{
+width:100px;
+}

@@ -1,0 +1,51 @@
+#onglet
+{
+//position:relative;
+background-color:orange;//#9999CC;
+height:30px;
+
+}
+
+#onglet ul
+{
+list-style:none;
+margin:0px;
+padding:0px;
+height:20px;
+}
+
+#onglet ul li a
+{
+text-decoration:none;
+display:bloc;
+color:blue;
+padding:2px;
+}
+
+#onglet ul li
+{
+float:right;
+background-color:yellow;
+margin:3px;
+height:100%;
+}
+#onglet ul li>a/* notation utilisé sous firefox pour surchargé*/
+{
+	height:auto;/* remplace 100% valide sous IE */
+}
+
+#onglet  a:hover
+{
+background-color:blue;
+color:white;
+}
+
+#onglet li.actif
+{
+background-color:white;
+color:black;
+padding-left:2px;
+padding-right:2px;
+margin:3px;
+height:27px;
+}

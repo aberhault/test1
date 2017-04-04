@@ -1,0 +1,32 @@
+#contenu h4
+{
+color:green;
+}
+
+#listing 
+{
+border-collapse:collapse;
+border-style:solid;
+}
+#listing th, #listing td
+{
+border-style:solid;
+}
+#listing th
+{
+color:red;
+}
+
+#listing tr:nth-child(2n+2)
+{
+background-color:#eee;
+}
+
+#form1
+{
+width:60%;
+margin-right:100px;
+text-align:right;
+float:left;
+}
+
