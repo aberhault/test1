@@ -72,7 +72,7 @@ else
 			<header id="entete">
 				<img class="droite" src="annexe/logort.gif">
 				<img class="gauche" src="annexe/logouniv.png">
-				<h1>accueil <?php echo $_SESSION["auth"]; ?></h1>
+				<h1>Accueil <?php echo $_SESSION["auth"]; ?></h1>
 			</header>
 			<nav id="menu">
 				<span> <?php echo $_SESSION["auth"]; ?></span>
@@ -87,7 +87,7 @@ else
 				}
 				else
 				{
-					$menu=array("","photorama","bilan","listing");
+					$menu=array("","Photorama","Bilan","Listing");
 					
 					echo '<li><a  href="index.php?logout=1" >Logout</a></li>';	
 					
@@ -110,9 +110,8 @@ else
 				?>	
 			</section>
 			<footer id="pied">
-				<a href="page1.html" ><img src="annexe/acceuil.gif"></a>
 				<span id="heure"></span>
-				<p>LP ASUR TP WEB </p>
+				<p>LP ASUR TP WEB  DYNAMIQUE</p>
 				
 			</footer>
 		</section>

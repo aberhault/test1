@@ -11,7 +11,7 @@ $dept="";
 ?>
 			
 <form action="index.php?page=3" method="post">
-<p><label>N° dept</label><input type="text" name="dept" value="<?php echo $dept;?>" />
+<p><label>N° département: </label><input type="text" name="dept" value="<?php echo $dept;?>" />
 <input type="submit" name="filtrer" value="Filtrer" /></p>
 </form>				
 	<hr/>			

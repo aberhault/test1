@@ -28,22 +28,22 @@
 			}
 			else
 			{
-				echo "<h6>erreur execute requete : $requete</h6>";
+				echo "<h6>Erreur execute requete : $requete</h6>";
 			}
 		}
 		else
 		{
-			echo "<h6>erreur requete : $requete</h6>";
+			echo "<h6>Erreur requete : $requete</h6>";
 		}
 	
 		
 	}
 	else
-		echo "<h4>erreur connexion à la base</h4>";
+		echo "<h4>Erreur connexion à la base</h4>";
 	
 	if($authentifie==true)
-		$resultat="authentification OK";
+		$resultat="Authentification OK";
 	else
-		$resultat="authentification ECHEC";
+		$resultat="Authentification ECHEC";
 
 ?>

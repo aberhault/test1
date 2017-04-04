@@ -152,6 +152,7 @@ if($result=$bdd->prepare($req))
 <input type="submit" name="delete" value="Supprimer" /></p>
 </form>	
 </br>
+<hr/>
 	
 <?php
 
