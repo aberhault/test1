@@ -111,7 +111,7 @@ else
 			</section>
 			<footer id="pied">
 				<a href="page1.html" ><img src="annexe/acceuil.gif"></a>
-				<span id="heure">22/09/2012</span>
+				<span id="heure"></span>
 				<p>LP ASUR TP WEB </p>
 				
 			</footer>
